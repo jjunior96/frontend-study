@@ -28,7 +28,7 @@ img {
   height: 100%;
 }
 
-/* Header ====================== */
+/* Header ========================== */
 header {
   width: 100%;
   background-color: #332f2f;
@@ -64,6 +64,7 @@ nav {
   color: #fff;
   padding: 0.8rem;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 .logo h1 {
@@ -99,6 +100,7 @@ nav {
 .menu-right i {
   color: #fff;
   margin-left: 2rem;
+  cursor: pointer;
 }
 
 /* Main ====================== */
@@ -149,7 +151,7 @@ h2 > span {
   border: none;
   padding: 0 1rem;
   background-color: #d9bb7f;
-  margin-left: 2rem;
+  margin-left: 3.5rem;
 }
 
 .prices-wrapper p {
@@ -163,4 +165,96 @@ h2 > span {
 p > span {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.product-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.comments-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.comments-header i {
+  padding: 0.6rem;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #474444;
+  z-index: 999;
+}
+
+.comments-header {
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+}
+
+.comments-profile {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 50px;
+  margin-left: -0.7rem;
+}
+
+.comments-stars {
+  margin-left: 1rem;
+}
+
+.comments-stars i {
+  background-color: transparent;
+  color: #d9bb7f;
+  font-size: 0.6rem;
+}
+
+.comments-stars span {
+  color: #d9bb7f;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.comments-stars p {
+  /* margin-top: -0.8rem; */
+  color: #fff;
+  font-weight: 100;
+  font-size: 0.8rem;
+  margin-top: -0.4rem;
+  margin-left: 0.6rem;
+}
+
+#icon-like {
+  z-index: 999;
+}
+
+.icon-right {
+  margin-left: 2rem;
+}
+
+.icon-right i {
+  border: 1px solid #e2cfa859;
+  background-color: transparent;
+  color: #e2cfa8f3;
+  border-radius: 50px;
+  height: 36px;
+  width: 36px;
+  margin-left: 1rem;
+}
+
+.comments-info-wrapper {
+  display: flex;
+  margin-top: 1.5rem;
+  color: #e2cfa859;
+  font-size: 0.8rem;
+  line-height: 32px;
+  font-weight: 100;
+}
+
+.comments-info-right {
+  margin-left: 6.5rem;
+  text-align: right;
 }
