@@ -12,4 +12,137 @@
   padding: 0;
   box-sizing: 0;
   list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.image-home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+}
+
+.margin-top {
+  margin-top: 1.5rem;
+}
+
+.logo {
+  width: 100%;
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+.logo h1 {
+  width: 100%;
+  font-size: 2rem;
+}
+
+.left {
+  width: 10%;
+  height: 100vh;
+  border-right: 1px solid rgba(255, 255, 255, 0.171);
+  text-align: center;
+}
+
+.left-center {
+  width: 40%;
+  height: 100vh;
+  border-right: 1px solid rgba(255, 255, 255, 0.171);
+}
+
+.right {
+  width: 40%;
+  height: 100vh;
+  border-right: 1px solid rgba(255, 255, 255, 0.171);
+  margin-left: 1rem;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  padding: 2rem 0;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div > a {
+  color: #fff;
+  margin: 0 2rem;
+}
+
+.nav-menu-left {
+  display: flex;
+
+  /* alinha o menu à direira */
+  justify-content: flex-end;
+
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: calc(100vh - 590px);
+  color: #fff;
+  width: 25rem;
+}
+
+.title-wrapper h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 4rem;
+  line-height: 84px;
+  letter-spacing: 6px;
+  font-weight: 400;
+}
+
+.paragraph-wrapper {
+  margin-top: 15rem;
+  font-size: 1.1rem;
+  color: #fff;
+  /* border-left: 2px solid #ddd; */
+  width: 75%;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-left: 1.5rem;
+  font-weight: 100;
+}
+
+.paragraph-wrapper button {
+  cursor: pointer;
+  margin-top: 2.5rem;
+  padding: 1.3rem 2rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, #513cff, #7561fe);
+  color: #fff;
+  box-shadow: 0 0 20px rgb(88, 88, 88);
+}
+
+.paragraph-wrapper button:hover {
+  background: #392bb4;
+}
+
+.line {
+  margin-top: 20rem;
+  height: 40px;
+  width: 2px;
+  background-color: #aaa;
 }
