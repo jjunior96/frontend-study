@@ -67,6 +67,11 @@ nav {
   cursor: pointer;
 }
 
+.menu-left i:hover {
+  background-color: #fff;
+  color: #242121;
+}
+
 .logo h1 {
   font-size: 1.3rem;
   color: #fff;
@@ -90,6 +95,7 @@ nav {
 }
 
 .menu-right button {
+  cursor: pointer;
   padding: 0.8rem;
   border: none;
   border-radius: 12px;
@@ -97,10 +103,19 @@ nav {
   font-weight: 600;
 }
 
+.menu-right button:hover {
+  background-color: #242121;
+  color: #fff;
+}
+
 .menu-right i {
   color: #fff;
   margin-left: 2rem;
   cursor: pointer;
+}
+
+.menu-right i:hover {
+  color: #d9bb7f;
 }
 
 /* Main ====================== */
@@ -129,6 +144,7 @@ nav {
 .product-img {
   width: 600px;
   height: 600px;
+  box-shadow: 4px 20px 20px #111;
 }
 
 .prices {
@@ -152,6 +168,12 @@ h2 > span {
   padding: 0 1rem;
   background-color: #d9bb7f;
   margin-left: 3.5rem;
+}
+
+.prices button:hover {
+  background-color: #332f2f;
+  color: #d9bb7f;
+  cursor: pointer;
 }
 
 .prices-wrapper p {
@@ -186,6 +208,12 @@ p > span {
   color: #fff;
   background-color: #474444;
   z-index: 999;
+}
+
+.comments-header i:hover {
+  color: #242121;
+  background-color: #e2cfa8;
+  cursor: pointer;
 }
 
 .comments-header {
@@ -243,6 +271,12 @@ p > span {
   height: 36px;
   width: 36px;
   margin-left: 1rem;
+}
+
+.icon-right i:hover {
+  background-color: #e2cfa8f3;
+  color: #242121;
+  cursor: pointer;
 }
 
 .comments-info-wrapper {
