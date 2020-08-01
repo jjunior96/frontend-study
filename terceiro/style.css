@@ -20,9 +20,11 @@ body {
   background-color: #ecedf6;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 
-  /* Teste */
-  height: 2000px;
+img {
+  width: 100%;
+  height: 100%;
 }
 
 /* Altera a cor da seleção dentro da pagina */
@@ -80,7 +82,7 @@ nav {
 }
 
 .nav-menu a:hover {
-  color: #2b5ec0;
+  color: #2d3436;
 }
 
 .btn {
@@ -95,17 +97,27 @@ nav {
   background-color: #fff;
 }
 
+button#login:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+
 #signup {
-  background-image: linear-gradient(to right, #5388eb, #2b5ec0);
+  background: linear-gradient(to right, #5388eb, #2b5ec0);
   color: #fff;
   margin-left: 1rem;
 }
 
-.login-wrapper button:hover {
-  background-color: #1d438a;
+button#signup:hover {
+  background: #1d438a;
 }
 
 /* Main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .title-wrapper {
   margin-top: 6rem;
@@ -138,10 +150,122 @@ h1 > span {
   margin-right: 1rem;
 }
 
+button.btn-sign:hover {
+  background: #1d438a;
+}
+
 .btn-play {
   background-color: #fff;
 }
 
+button.btn-play:hover {
+  background: #aaa;
+  color: #fff;
+}
+
 button > i {
   margin-left: 0.3rem;
+}
+
+/* Image Wrapper */
+.image-wrapper {
+  margin-top: 6rem;
+  max-width: 900px;
+}
+
+/* Feedback */
+.feedback-wrapper {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback-info {
+  max-width: 40rem;
+  margin-right: 10rem;
+}
+
+.feedback-info h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #2d3436;
+}
+
+.feedback-text {
+  margin-top: 3rem;
+  max-width: 50rem;
+}
+
+.feedback-text p {
+  font-size: 1rem;
+  line-height: 24px;
+  margin-bottom: 1.5rem;
+  color: rgb(136, 136, 136);
+}
+
+.further-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon-info {
+  padding: 0.5rem 1rem;
+  background-color: rgba(170, 170, 170, 0.151);
+  color: #2b5ec0;
+  border-radius: 4px;
+}
+
+.icon-info-wrapper {
+  margin-bottom: 1rem;
+}
+
+.icon-info-wrapper span {
+  margin-left: 1rem;
+  color: #2d3436;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 10rem;
+  background-color: #2d3436;
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-links a {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 100;
+  margin-right: 2rem;
+}
+
+.footer-links a:hover {
+  color: #566468;
+}
+
+.social-links {
+  margin-left: 33rem;
+}
+
+.social-links i {
+  background-color: #59616350;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.social-links i:hover {
+  background-color: #1d2122;
 }
