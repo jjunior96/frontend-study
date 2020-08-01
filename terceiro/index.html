@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
@@ -14,7 +18,9 @@
         <nav class="max-width-wrapper">
           <!-- Logo -->
           <div class="logo">
-            <h1>Logo</h1>
+            <a href="./">
+              <h1>Logo</h1>
+            </a>
           </div>
 
           <!-- Menus -->
@@ -27,11 +33,30 @@
 
           <!-- Signin / Signup -->
           <div class="login-wrapper">
-            <button>Log in</button>
-            <button>Sign up for free</button>
+            <button id="login" class="btn">Log in</button>
+            <button id="signup" class="btn">Sign up for free</button>
           </div>
         </nav>
       </div>
     </header>
+
+    <!-- Main -->
+    <main>
+      <div class="title-wrapper">
+        <h1>Present your design <br />in a professional way<span>.</span></h1>
+        <p>
+          Upload project, Get feedback from client, Manage your work in one
+          place!
+        </p>
+
+        <div class="btn-wrapper">
+          <button class="btn btn-sign">Sign up for free</button>
+          <button class="btn btn-play">
+            Play video
+            <i class="icon fas fa-play-circle"></i>
+          </button>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
